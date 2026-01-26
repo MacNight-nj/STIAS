@@ -7,43 +7,43 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body>
-    <div class="flex h-screen w-full bg-[#d16f1a]">
-      <div class="relative flex flex-col h-full w-2/3 border-r">
+    <div class="flex flex-col md:flex-row h-screen w-full bg-[#d16f1a]">
+      <div class="relative flex flex-col h-full md:w-2/3 border-r">
         <div
           class="absolute inset-0 bg-[url(/assets/images/stias-logo-large.avif)] bg-cover bg-no-repeat bg-center opacity-15"
         ></div>
         <div class="relative z-10 flex flex-col justify-end h-full text-white">
-          <div class="flex flex-col justify-center px-20">
+          <div class="flex flex-col justify-center px-10 md:px-20 pt-10 md:pt-0">
             <div class="w-fit p-1 border text-md opacity-60">
               Stellenbosch Institute for Advanced Study
             </div>
-            <h1 class="sm:text-5xl lg:text-6xl mb-6">
+            <h1 class="text-5xl md:text-6xl mb-6">
               Sovereign AI and Epistemic Justice: Reclaiming Sustainable
               Computation
             </h1>
           </div>
-          <div class="px-20 py-8 border-t border-t-black">
-            <h2 class="text-3xl mb-4 font-light">Workshop on</h2>
-            <h3 class="text-4xl mb-6">
+          <div class="px-10 md:px-20 py-4 md:py-8 border-t border-t-black text-center md:text-left">
+            <h2 class="text-lg md:text-3xl mb-4 font-light">Workshop on</h2>
+            <h3 class="text-xl md:text-4xl md:mb-6">
               A NetIAS Debate on the Future of Responsible AI
             </h3>
           </div>
         </div>
       </div>
-      <div class="flex flex-col justify-end h-full w-1/3 text-white text-2xl">
-        <div class="w-full px-10 py-8 border-t border-r border-black">
-          <p class="text-xl font-light">Date</p>
+      <div class="flex flex-col justify-end h-full md:w-1/3 text-white md:text-2xl">
+        <div class="w-full px-5 md:px-10 py-4 md:py-8 border-t border-r border-black">
+          <p class="text-lg md:text-xl font-light">Date</p>
           <p class="font-bold">08 April 2026</p>
         </div>
-        <div class="w-full px-10 py-8 border-t border-r border-black">
-          <p class="text-xl font-light">Location</p>
+        <div class="hidden md:block w-full px-5 md:px-10 py-4 md:py-8 border-t border-r border-black">
+          <p class="text-lg md:text-xl font-light">Location</p>
           <p class="font-bold">
             Stellenbosch Institute for Advanced Study (STIAS), South Africa &
             Online
           </p>
         </div>
-        <div class="w-full px-10 py-8 border-t border-r border-black">
-          <p class="text-xl font-light">Organisers</p>
+        <div class="w-full px-5 md:px-10 py-4 md:py-8 border-t border-r border-black">
+          <p class="text-lg md:text-xl font-light">Organisers</p>
           <p class="font-bold">
             Louis Fendji <span class="text-sm">(STIAS/Uni Ngaoundere)</span>
           </p>
@@ -74,7 +74,7 @@
           alt=""
         />
       </div>
-      <div class="flex flex-col items-center px-60">
+      <div class="flex flex-col items-center px-12 md:px-60">
         <div class="h-15 w-0 border"></div>
         <div class="p-2 border-2 uppercase font-bold">Thematic Framework</div>
         <div class="self-start flex items-end w-1/2">
@@ -116,15 +116,15 @@
         </div>
       </div>
       <div
-        class="flex items-center justify-between gap-x-1 mx-50 px-10 py-8 border-2"
+        class="flex items-center justify-between gap-x-1 mx-12 md:mx-50 px-10 py-8 border-2 text-md md:text-xl"
       >
         <div class="">
-          <p class="text-xl font-light">Hosted by</p>
+          <p class="font-light">Hosted by</p>
           <p class="font-bold">Stellenbosch Institute for Advanced Study</p>
         </div>
         <div class="h-15 w-0 border"></div>
         <div class="">
-          <p class="text-xl font-light">In collaboration with</p>
+          <p class="font-light">In collaboration with</p>
           <p class="font-bold">
             Aarhus Institute for Advanced Study (AIAS) <br />
             Hamburg Institute for Advanced Study (HIAS) <br />
@@ -134,12 +134,12 @@
           </p>
         </div>
       </div>
-      <div class="ml-60 h-20 w-0 border"></div>
-      <div class="ml-50 w-fit p-2 border-2 uppercase font-bold">
+      <div class="ml-22 md:ml-60 h-20 w-0 border"></div>
+      <div class="ml-12 md:ml-50 w-fit p-2 border-2 uppercase font-bold">
         Call for Abstracts
       </div>
       <div
-        class="flex flex-col gap-y-2 mx-60 p-6 border-l-2 text-center text-justify"
+        class="flex flex-col gap-y-2 mx-22 md:mx-60 p-6 border-l-2 text-center text-justify"
       >
         <p>
           We invite abstract submissions that engage deeply with one or more of
@@ -227,11 +227,11 @@
           direct engagement with participants.
         </p>
       </div>
-      <div class="ml-50 w-fit p-2 border-2 uppercase font-bold">
+      <div class="ml-12 md:ml-50 w-fit p-2 border-2 uppercase font-bold">
         Submission Guidelines
       </div>
       <div
-        class="flex flex-col gap-y-2 mx-60 p-6 border-l-2 text-center text-justify"
+        class="flex flex-col gap-y-2 mx-22 md:mx-60 p-6 border-l-2 text-center text-justify"
       >
         <ul class="px-6 list-disc list-outside [&_ul]:list-[revert]">
           <li>
@@ -256,11 +256,11 @@
           </li>
         </ul>
       </div>
-      <div class="ml-50 w-fit p-2 border-2 uppercase font-bold">
+      <div class="ml-12 md:ml-50 w-fit p-2 border-2 uppercase font-bold">
         Organisation of the Event
       </div>
       <div
-        class="flex flex-col gap-y-2 mx-60 p-6 border-l-2 text-center text-justify"
+        class="flex flex-col gap-y-2 mx-22 md:mx-60 p-6 border-l-2 text-center text-justify"
       >
         <p>
           The debate will be structured as an intensive one-day forum combining
@@ -346,7 +346,7 @@
           from all sessions
         </p>
       </div>
-      <div class="self-start flex items-start w-full px-60">
+      <div class="self-start flex items-start w-full px-22 md:px-60">
         <div class="h-0 w-1/2 border"></div>
         <div class="h-15 w-0 border"></div>
       </div>
@@ -355,27 +355,17 @@
       </div>
       <div class="self-center h-15 w-0 border"></div>
       <div
-        class="flex items- justify-between gap-x-4 mx-40 px-10 py-8 border-2"
+        class="flex justify-between gap-x-4 mx-12 md:mx-50 px-10 py-8 border-2"
       >
-        <div class="">
+        <div class="w-1/2">
           <p class="text-xl font-light">For Presenters</p>
           <p class="font-bold">
             Accepted authors will be notified and receive complimentary
-            information for in-person/online registration.
+            information for online registration.
           </p>
         </div>
         <div class="h-auto w-0 border"></div>
-        <div class="">
-          <p class="text-xl font-light">
-            For General In-Person Attendance at STIAS
-          </p>
-          <p class="font-bold">
-            General registration will open following the abstract selection
-            process. Seats are limited for in-person registration.
-          </p>
-        </div>
-        <div class="h-auto w-0 border"></div>
-        <div class="">
+        <div class="w-1/2">
           <p class="text-xl font-light">For Online Participation</p>
           <p class="font-bold">
             The debate will be live-streamed. No registration required for the
@@ -391,7 +381,7 @@
     </div>
 
     <!-- Footer -->
-    <div class="flex justify-between w-full p-8 bg-[#110d10] text-white">
+    <div class="flex flex-col md:flex-row justify-between gap-y-8 md:gap-y-0 w-full p-8 bg-[#110d10] text-white">
       <a
         href="https://www.stias.ac.za/"
         target="_blank"
@@ -505,7 +495,7 @@
         </div>
         <a
           href="https://list.sun.ac.za/sympa/subscribe/friends-of-stias"
-          class="p-2 bg-[#d16f1a]"
+          class="w-fit p-2 bg-[#d16f1a]"
           target="_blank"
           rel="noopener noreferrer"
         >
